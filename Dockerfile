@@ -1,7 +1,7 @@
 FROM alpine:3.8
 
 # Install required packages
-RUN apk --no-cache add curl ca-certificates jq bash
+RUN apk --no-cache add curl ca-certificates python bash py-yaml
 
 # Application
 COPY verify.sh /
