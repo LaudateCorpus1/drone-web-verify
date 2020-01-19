@@ -8,7 +8,7 @@ fi
 
 echo "Waiting for versions to match on $URL"
 
-timeout $TIMEOUT /verify.sh
+timeout --foreground $TIMEOUT /verify.sh
 
 if [[ $? == 0 ]]
 then
