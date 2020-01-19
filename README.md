@@ -20,7 +20,7 @@ The following parameter is required:
 
 Optional:
 
-* `timeout` Timeout value. Default is 600s.
+* `timeout` Timeout value. Default is 10m.
 
 * `version_file_path` Path to the `drone_build_version.html` file. Defaults to working directory.
 

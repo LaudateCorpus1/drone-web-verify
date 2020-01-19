@@ -3,12 +3,12 @@
 # Get source dir name or set to current if not given 
 if [ -z $TIMEOUT ]
 then 
-  TIMEOUT="600"
+  TIMEOUT="10m"
 fi
 
 echo "Waiting for versions to match on $URL"
 
-timeout -t $TIMEOUT /verify.sh
+timeout $TIMEOUT /verify.sh
 
 if [[ $? == 0 ]]
 then
