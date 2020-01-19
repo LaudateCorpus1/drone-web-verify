@@ -1,0 +1,6 @@
+required_vars:
+  - URL
+
+optional_vars:
+  - TIMEOUT
+  - VERSION_FILE_PATH
