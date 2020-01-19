@@ -4,3 +4,4 @@ required_vars:
 optional_vars:
   - TIMEOUT
   - VERSION_FILE_PATH
+  - DEBUG

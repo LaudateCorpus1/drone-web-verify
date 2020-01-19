@@ -24,6 +24,8 @@ Optional:
 
 * `version_file_path` Path to the `drone_build_version.html` file. Defaults to working directory.
 
+* `debug` If set to `True` then it will print the results of the website query.
+
 ## Example
 
 ```yaml

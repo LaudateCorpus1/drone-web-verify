@@ -10,6 +10,10 @@ fi
 while :
 do
     web_version=`curl -sk $URL/drone_build_version.html` 
+    if [ -n "$DEBUG" ]
+    then
+        echo $web_version
+    fi
     if [[ $drone_version == $web_version ]]
     then
         exit 0
